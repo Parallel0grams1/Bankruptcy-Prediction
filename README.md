@@ -1,3 +1,5 @@
 # Bankruptcy-Prediction
 
-This project uses various Machine Learning Models(MLM) and Artificial Neural Network(ANN) to predict company bankruptcy.
+This project uses various Machine Learning Models(MLM) and Artificial Neural Network(ANN) to predict Company Bankruptcy.  The dataset used in this project is from the Taiwan Economic Journal. The information collected on these companies was from the years 1999 to 2009. The definition of Company Bankruptcy was based on the business regulations of the Taiwan Stock Exchange.
+
+There are a total of 6 algorithms used in this project. They are Logistic Regression, Random Forest, K-Nearest Neighbors, Adaboost, XGBoost and ANN. These models will be compared with each other to determine which are the most effective models in predicting bankruptcy. As the number of features in this dataset are relatively huge, Variance Inflation Factor(VIF) will be used to remove features that are deemed too multicollinear. Furthermore, Mutual Information criterion will be used as well to reduce the features and ensure that the model has a lower level of uncertainty. Finally, feature importance is applied to determine the importance of those features that predict bankruptcy.
